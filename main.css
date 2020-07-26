@@ -1,0 +1,33 @@
+html{
+    font-family:    Quicksand-VariableFont_wght;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECEDF9;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: "Quicksand-VariableFont_wght";
+    src: url("./assets/fonts/Quicksand-VariableFont_wght.ttf");
+}
+.center-container{
+
+    width: 27em;
+    height: 32em;
+    background-color:  white;
+    border-radius: 1em;
+    -webkit-box-shadow: -5px 6px 8px 2px rgba(153,153,153,1), 6px 6px 8px 2px rgba(153,153,153,1);
+    -moz-box-shadow: -5px 6px 8px 2px rgba(153,153,153,1), 6px 6px 8px 2px rgba(153,153,153,1);
+    box-shadow: -5px 6px 8px 2px rgba(153,153,153,.50), 6px 6px 8px 2px rgba(153,153,153,.50), -1px -3px 8px 2px rgba(153,153,153,.50);
+
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
