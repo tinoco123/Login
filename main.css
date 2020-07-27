@@ -17,7 +17,7 @@ html{
 .center-container{
 
     width: 30vw;
-    height: 80vh;
+    height: 85vh;
     background-color:  white;
     border-radius: .6em;
     -webkit-box-shadow: -5px 6px 8px 2px rgba(153,153,153,1), 6px 6px 8px 2px rgba(153,153,153,1);
@@ -33,21 +33,22 @@ html{
 
 }
 hr{
-    margin-top: 0em;
+    position: relative;
+    top: -1em;
     width: 85%;
 }
 .form{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2.7em;
+
 
 }
 .correo{
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .contraseña{
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .button{
     margin-top: 2em;
@@ -76,12 +77,23 @@ hr{
     left: 4em;
     border:none;
     border-radius: 5px;
-    background   : #5E8FC9;
+    background   : #3C6AB4;
     color: white;
     outline: none;
     cursor       : pointer;
-    height: 2.1em;
+    height: 2.3em;
     width: 7em;
+}
+.img-login{
+    position: relative;
+    left: 9em;
+    top: -.6em;
 
 
+    width: 150px;
+    height: 125px;
+}
+.image{
+    width: 150px;
+    height: 125px;
 }
